@@ -39,17 +39,17 @@ package mangle
 
 import (
 	"bufio"
-	//	"bytes"
-	"code.google.com/p/go.net/html"
 	"crypto/sha256"
 	"errors"
 	"fmt"
-	"github.com/jimsmart/bufrr"
 	"hash/crc32"
 	"io"
 	"os"
 	"strings"
 	"unicode"
+
+	"github.com/SteelSeries/bufrr"
+	"golang.org/x/net/html"
 )
 
 // Mangle is used to configure an instance prior to mangling.

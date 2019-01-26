@@ -13,11 +13,12 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/grugnog/mangle"
 	"io"
 	"log"
 	"os"
 	"runtime/pprof"
+
+	"github.com/grugnog/mangle"
 )
 
 var corpus = flag.String("corpus", "corpus.txt", "File containing corpus of words to use as replacements.")

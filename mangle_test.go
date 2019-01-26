@@ -3,9 +3,10 @@ package mangle_test
 import (
 	"bufio"
 	"bytes"
-	"github.com/grugnog/mangle"
 	"strings"
 	"testing"
+
+	"github.com/grugnog/mangle"
 )
 
 var corpus = initTestCorpus()
